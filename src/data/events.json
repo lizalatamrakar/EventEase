@@ -1,0 +1,331 @@
+[
+  {
+    "id": "evt_001",
+    "title": "Kathmandu Jazz Night",
+    "category": "Music",
+    "description": "Lose yourself in an enchanting evening of world-class jazz performed by acclaimed local and international artists. Set against the breathtaking backdrop of Yalamaya Kendra, this is Kathmandu's premier jazz experience. Enjoy curated cocktails, artisan food stalls, and an unforgettable ambiance.",
+    "date": "2026-09-12",
+    "time": "18:30",
+    "duration": "4 hours",
+    "venue": {
+      "name": "Yalamaya Kendra",
+      "address": "Patan Dhoka, Lalitpur",
+      "city": "Lalitpur",
+      "mapUrl": ""
+    },
+    "organizer": {
+      "name": "Kathmandu Live Events",
+      "email": "contact@kle.com",
+      "phone": "+977-9800000001"
+    },
+    "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80",
+    "tags": ["jazz", "live-music", "nightlife"],
+    "featured": true,
+    "ticketTypes": [
+      { "id": "tt_general", "name": "General Admission", "price": 800, "available": 120, "description": "Access to the main floor" },
+      { "id": "tt_vip", "name": "VIP Lounge", "price": 2500, "available": 25, "description": "Dedicated lounge seating, welcome drink included" },
+      { "id": "tt_backstage", "name": "Backstage Pass", "price": 5000, "available": 10, "description": "Meet & greet with artists, backstage access" }
+    ]
+  },
+  {
+    "id": "evt_002",
+    "title": "Himalayan Trail Run 2026",
+    "category": "Sports",
+    "description": "Challenge yourself on one of the world's most stunning trail running courses winding through rhododendron forests and mountain ridgelines. The Himalayan Trail Run offers distances for all levels: 10K, 25K, and the ultimate 50K challenge. Professional timing, aid stations, and finisher medals for all participants.",
+    "date": "2026-10-05",
+    "time": "06:00",
+    "duration": "All day",
+    "venue": {
+      "name": "Shivapuri National Park Trailhead",
+      "address": "Buddhanilkantha, Kathmandu",
+      "city": "Kathmandu",
+      "mapUrl": ""
+    },
+    "organizer": {
+      "name": "Nepal Ultra Sports",
+      "email": "info@nepalultrasports.com",
+      "phone": "+977-9800000002"
+    },
+    "image": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=800&q=80",
+    "tags": ["trail-run", "outdoors", "fitness"],
+    "featured": true,
+    "ticketTypes": [
+      { "id": "tt_10k", "name": "10K Race", "price": 1200, "available": 200, "description": "Beginner-friendly route with stunning views" },
+      { "id": "tt_25k", "name": "25K Race", "price": 2000, "available": 150, "description": "Intermediate challenge through alpine terrain" },
+      { "id": "tt_50k", "name": "50K Ultra", "price": 3500, "available": 80, "description": "The ultimate Himalayan ultra-distance challenge" }
+    ]
+  },
+  {
+    "id": "evt_003",
+    "title": "Nepal Tech Summit 2026",
+    "category": "Tech",
+    "description": "Nepal's largest technology conference brings together innovators, entrepreneurs, engineers, and investors for two days of cutting-edge talks, workshops, and networking. Topics span AI/ML, fintech, agri-tech, open source, and the future of Nepal's digital economy. Keynotes from international speakers and local tech legends.",
+    "date": "2026-09-20",
+    "time": "09:00",
+    "duration": "2 days",
+    "venue": {
+      "name": "Hyatt Regency Kathmandu",
+      "address": "Boudha, Kathmandu",
+      "city": "Kathmandu",
+      "mapUrl": ""
+    },
+    "organizer": {
+      "name": "Digital Nepal Foundation",
+      "email": "summit@digitalnp.org",
+      "phone": "+977-9800000003"
+    },
+    "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+    "tags": ["technology", "AI", "startup", "conference"],
+    "featured": true,
+    "ticketTypes": [
+      { "id": "tt_standard", "name": "Standard Pass", "price": 3000, "available": 500, "description": "Full 2-day access to all talks and expo" },
+      { "id": "tt_workshop", "name": "Workshop Bundle", "price": 5000, "available": 100, "description": "Conference + 2 workshops of your choice" },
+      { "id": "tt_vip", "name": "VIP All-Access", "price": 10000, "available": 30, "description": "VIP lounge, speaker dinner, premium networking" }
+    ]
+  },
+  {
+    "id": "evt_004",
+    "title": "Artisan Pottery & Craft Fair",
+    "category": "Arts",
+    "description": "Celebrate Nepal's rich artistic heritage at the annual Artisan Pottery and Craft Fair. Browse and purchase unique handmade ceramics, Thanka paintings, Dhaka fabric, metalwork, and wood carvings directly from Nepal's finest artisans. Live demonstrations, pottery workshops, and a gallery curated by the National Academy of Fine Arts.",
+    "date": "2026-09-27",
+    "time": "10:00",
+    "duration": "3 days",
+    "venue": {
+      "name": "Nepal Art Council Gallery",
+      "address": "Babar Mahal, Kathmandu",
+      "city": "Kathmandu",
+      "mapUrl": ""
+    },
+    "organizer": {
+      "name": "Kathmandu Arts Collective",
+      "email": "events@kathmanduarts.org",
+      "phone": "+977-9800000004"
+    },
+    "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=800&q=80",
+    "tags": ["arts", "crafts", "culture", "traditional"],
+    "featured": false,
+    "ticketTypes": [
+      { "id": "tt_entry", "name": "Day Entry", "price": 300, "available": 800, "description": "Entry for one day" },
+      { "id": "tt_3day", "name": "3-Day Pass", "price": 700, "available": 300, "description": "Full 3-day access" },
+      { "id": "tt_workshop", "name": "Workshop + Entry", "price": 1500, "available": 50, "description": "3-day pass + hands-on pottery workshop" }
+    ]
+  },
+  {
+    "id": "evt_005",
+    "title": "StartupConnect Networking Evening",
+    "category": "Business",
+    "description": "Join Kathmandu's most dynamic startup networking event. Meet founders, investors, mentors, and service providers in a relaxed setting designed to spark meaningful connections. Includes a startup pitch competition (register separately), panel Q&A with seasoned entrepreneurs, and a sponsored drinks reception.",
+    "date": "2026-10-15",
+    "time": "17:30",
+    "duration": "3 hours",
+    "venue": {
+      "name": "The Hub Kathmandu",
+      "address": "Jhamsikhel, Lalitpur",
+      "city": "Lalitpur",
+      "mapUrl": ""
+    },
+    "organizer": {
+      "name": "Entrepreneurs Nepal",
+      "email": "connect@entrepreneursnepal.com",
+      "phone": "+977-9800000005"
+    },
+    "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=800&q=80",
+    "tags": ["startup", "networking", "entrepreneurship"],
+    "featured": false,
+    "ticketTypes": [
+      { "id": "tt_free", "name": "General Networking", "price": 0, "available": 150, "description": "Access to networking floors" },
+      { "id": "tt_premium", "name": "Premium Networking", "price": 1500, "available": 40, "description": "VIP lounge, pre-event investor meet" }
+    ]
+  },
+  {
+    "id": "evt_006",
+    "title": "Newari Food Festival",
+    "category": "Food",
+    "description": "A mouth-watering celebration of Newari cuisine — one of Nepal's most beloved culinary traditions. Sample authentic Newari dishes from top restaurants and home chefs, attend cooking masterclasses, and learn the stories behind iconic dishes like Yomari, Bara, Chatamari, and Choila. Live traditional sarangi and flute music throughout the event.",
+    "date": "2026-11-01",
+    "time": "11:00",
+    "duration": "2 days",
+    "venue": {
+      "name": "Bhrikutimandap Grounds",
+      "address": "Pragati Path, Kathmandu",
+      "city": "Kathmandu",
+      "mapUrl": ""
+    },
+    "organizer": {
+      "name": "Nepal Food Culture Foundation",
+      "email": "info@nfcf.org.np",
+      "phone": "+977-9800000006"
+    },
+    "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80",
+    "tags": ["food", "culture", "newari", "festival"],
+    "featured": true,
+    "ticketTypes": [
+      { "id": "tt_entry", "name": "Festival Entry", "price": 400, "available": 1000, "description": "Entry for one day" },
+      { "id": "tt_foodpass", "name": "Food Tasting Pass", "price": 1200, "available": 250, "description": "Entry + curated tasting vouchers (10 dishes)" },
+      { "id": "tt_masterclass", "name": "Masterclass Package", "price": 2500, "available": 40, "description": "2-day pass + cooking masterclass with a head chef" }
+    ]
+  },
+  {
+    "id": "evt_007",
+    "title": "Pokhara Electronic Music Festival",
+    "category": "Music",
+    "description": "Set against the stunning Annapurna range reflecting on Phewa Lake, PEMF brings world-class electronic music artists for three nights of euphoric beats and unforgettable visuals. Spanning multiple stages — from deep house to techno to ambient — this is Nepal's premier outdoor electronic music experience.",
+    "date": "2026-11-20",
+    "time": "16:00",
+    "duration": "3 days",
+    "venue": {
+      "name": "Phewa Lake Promenade",
+      "address": "Lakeside, Pokhara",
+      "city": "Pokhara",
+      "mapUrl": ""
+    },
+    "organizer": {
+      "name": "Himalayan Beats Productions",
+      "email": "pemf@himalayan-beats.com",
+      "phone": "+977-9800000007"
+    },
+    "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&q=80",
+    "tags": ["electronic", "EDM", "festival", "outdoor"],
+    "featured": true,
+    "ticketTypes": [
+      { "id": "tt_day", "name": "Day Pass", "price": 2000, "available": 500, "description": "Single day access" },
+      { "id": "tt_3day", "name": "3-Day Pass", "price": 5000, "available": 300, "description": "Full festival access all 3 days" },
+      { "id": "tt_vip", "name": "VIP Weekend", "price": 12000, "available": 50, "description": "VIP stage view, artist lounge, camping spot" }
+    ]
+  },
+  {
+    "id": "evt_008",
+    "title": "Kathmandu Half Marathon",
+    "category": "Sports",
+    "description": "Lace up and run through Kathmandu's iconic streets in this popular half marathon event. The route takes runners past ancient temples, bustling markets, and scenic riverside paths. Both individual and team categories available. Professional timing, water stations, physiotherapy support, and finisher medals. Suitable for all fitness levels.",
+    "date": "2026-12-06",
+    "time": "06:00",
+    "duration": "6 hours",
+    "venue": {
+      "name": "Ratna Park Starting Line",
+      "address": "Ratna Park, Kathmandu",
+      "city": "Kathmandu",
+      "mapUrl": ""
+    },
+    "organizer": {
+      "name": "Kathmandu Running Club",
+      "email": "run@ktmrunning.org",
+      "phone": "+977-9800000008"
+    },
+    "image": "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=800&q=80",
+    "tags": ["running", "marathon", "fitness"],
+    "featured": false,
+    "ticketTypes": [
+      { "id": "tt_5k", "name": "5K Fun Run", "price": 500, "available": 300, "description": "Family-friendly 5K run" },
+      { "id": "tt_10k", "name": "10K Run", "price": 800, "available": 400, "description": "Competitive 10K course" },
+      { "id": "tt_21k", "name": "Half Marathon (21K)", "price": 1500, "available": 500, "description": "Official half marathon distance with chip timing" }
+    ]
+  },
+  {
+    "id": "evt_009",
+    "title": "Himalayan Investment Summit",
+    "category": "Business",
+    "description": "Nepal's premier investment conference connecting global investors with high-growth opportunities across infrastructure, renewable energy, hospitality, and tech sectors. Featuring keynote addresses from government officials, one-on-one investor meetings, deal showcases, and policy roundtables shaping Nepal's economic future.",
+    "date": "2026-10-30",
+    "time": "08:00",
+    "duration": "2 days",
+    "venue": {
+      "name": "Soaltee Hotel Kathmandu",
+      "address": "Tahachal, Kathmandu",
+      "city": "Kathmandu",
+      "mapUrl": ""
+    },
+    "organizer": {
+      "name": "Investment Board Nepal",
+      "email": "summit@ibn.gov.np",
+      "phone": "+977-9800000009"
+    },
+    "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800&q=80",
+    "tags": ["investment", "finance", "business", "conference"],
+    "featured": false,
+    "ticketTypes": [
+      { "id": "tt_delegate", "name": "Delegate Pass", "price": 15000, "available": 200, "description": "Full 2-day conference access" },
+      { "id": "tt_vip", "name": "VIP Delegate", "price": 35000, "available": 30, "description": "VIP access including investor dinner" }
+    ]
+  },
+  {
+    "id": "evt_010",
+    "title": "Street Photography Walk — Kathmandu",
+    "category": "Arts",
+    "description": "Explore the hidden stories of Kathmandu's ancient lanes, courtyards, and bazaars through the lens of your camera. Join award-winning photographer Sunil Pradhan for a guided 4-hour street photography walk, covering composition techniques, light reading, and ethical photography in public spaces. Suitable for all camera types.",
+    "date": "2026-09-28",
+    "time": "07:00",
+    "duration": "4 hours",
+    "venue": {
+      "name": "Asan Tole Meeting Point",
+      "address": "Asan Tole, Kathmandu",
+      "city": "Kathmandu",
+      "mapUrl": ""
+    },
+    "organizer": {
+      "name": "Nepal Photography Society",
+      "email": "walks@nepalphotography.org",
+      "phone": "+977-9800000010"
+    },
+    "image": "https://images.unsplash.com/photo-1549887534-1541e9326642?w=800&q=80",
+    "tags": ["photography", "arts", "walk", "kathmandu"],
+    "featured": false,
+    "ticketTypes": [
+      { "id": "tt_standard", "name": "Photography Walk", "price": 1500, "available": 20, "description": "Guided 4-hour walk with professional photographer" }
+    ]
+  },
+  {
+    "id": "evt_011",
+    "title": "Cheese & Wine Evening",
+    "category": "Food",
+    "description": "An intimate evening of curated cheeses and imported wines in the heart of Patan. Expert sommeliers and cheesemongers guide you through tasting pairings from across Europe, with a special local yak cheese flight from Himalayan producers. Limited to 60 guests for an exclusive, personal experience.",
+    "date": "2026-10-22",
+    "time": "19:00",
+    "duration": "3 hours",
+    "venue": {
+      "name": "Patan Museum Garden",
+      "address": "Patan Durbar Square, Lalitpur",
+      "city": "Lalitpur",
+      "mapUrl": ""
+    },
+    "organizer": {
+      "name": "The Kathmandu Gourmet Society",
+      "email": "events@ktmgourmet.com",
+      "phone": "+977-9800000011"
+    },
+    "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80",
+    "tags": ["food", "wine", "gourmet", "evening"],
+    "featured": false,
+    "ticketTypes": [
+      { "id": "tt_standard", "name": "Tasting Evening", "price": 4500, "available": 60, "description": "Curated cheese & wine pairings for one guest" }
+    ]
+  },
+  {
+    "id": "evt_012",
+    "title": "Indie Film Screening — Nepal Stories",
+    "category": "Arts",
+    "description": "A curated evening of short indie films from Nepal's emerging filmmakers. Six short films exploring contemporary Nepali life, identity, and urban stories — screened in an intimate open-air setting. Followed by a panel Q&A with directors and a cocktail mixer. This event supports the Next Wave Nepal Film Fund.",
+    "date": "2026-10-08",
+    "time": "18:00",
+    "duration": "4 hours",
+    "venue": {
+      "name": "Garden of Dreams",
+      "address": "Thamel, Kathmandu",
+      "city": "Kathmandu",
+      "mapUrl": ""
+    },
+    "organizer": {
+      "name": "Next Wave Nepal",
+      "email": "screen@nextwavenepal.com",
+      "phone": "+977-9800000012"
+    },
+    "image": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800&q=80",
+    "tags": ["film", "cinema", "indie", "culture"],
+    "featured": false,
+    "ticketTypes": [
+      { "id": "tt_standard", "name": "Screening Pass", "price": 600, "available": 80, "description": "Admission to all films + Q&A" },
+      { "id": "tt_supporter", "name": "Supporter Pass", "price": 1500, "available": 30, "description": "Admission + cocktail reception + donation to film fund" }
+    ]
+  }
+]
